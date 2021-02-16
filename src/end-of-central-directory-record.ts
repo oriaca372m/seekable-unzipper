@@ -1,4 +1,4 @@
-import { ISeekableBuffer } from 'Src/seekable-buffer'
+import { ISeekableBuffer } from './seekable-buffer'
 
 export type EndOfCentralDirectoryRecord = {
 	// (4 bytes)

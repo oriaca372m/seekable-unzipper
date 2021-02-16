@@ -1,6 +1,6 @@
-import { ISeekableBuffer } from 'Src/seekable-buffer'
-import { DosDate, DosTime, parseDosDate, parseDosTime } from 'Src/dos-datetime'
-import { CompressionMethod, parseCompressionMethod } from 'Src/compression-method'
+import { ISeekableBuffer } from './seekable-buffer'
+import { DosDate, DosTime, parseDosDate, parseDosTime } from './dos-datetime'
+import { CompressionMethod, parseCompressionMethod } from './compression-method'
 
 export type CentralDirectoryHeader = {
 	// (4 bytes)

@@ -1,9 +1,9 @@
-import { parseCentralDirectoryHeader } from 'Src/central-directory-header'
-import { LocalFileHeader, parseLocalFileHeader } from 'Src/local-file-header'
-import { parseEndOfCentralDirectoryRecord } from 'Src/end-of-central-directory-record'
-import { FileSeekableBuffer } from 'Src/seekable-buffer'
+import { parseCentralDirectoryHeader } from './central-directory-header'
+import { LocalFileHeader, parseLocalFileHeader } from './local-file-header'
+import { parseEndOfCentralDirectoryRecord } from './end-of-central-directory-record'
+import { FileSeekableBuffer } from './seekable-buffer'
 import * as zlib from 'zlib'
-import { ISeekableBuffer } from 'Src/seekable-buffer'
+import { ISeekableBuffer } from './seekable-buffer'
 import { Readable } from 'stream'
 
 function decode(sbuf: ISeekableBuffer, header: LocalFileHeader): Readable {

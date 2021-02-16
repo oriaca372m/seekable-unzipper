@@ -1,4 +1,4 @@
-import { ZipLoader } from 'Src/zip-loader'
+import { ZipLoader } from './'
 import { promises as fs } from 'fs'
 
 function unreachable(): never {
