@@ -1,6 +1,6 @@
 {
   "name": "@oriaca372m/seekable-unzipper",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "main": "dist/index.js",
   "license": "Zlib",
   "repository": {
