@@ -29,8 +29,7 @@ export class FileSeekableBuffer implements ISeekableBuffer {
 
 	readStream(offset: number, length: number): Readable {
 		return createReadStream('', {
-			// eslint-disable-next-line
-			fd: this.handle as any,
+			fd: this.handle.fd,
 			// startとendはinclusive
 			start: offset,
 			end: offset + length - 1,
