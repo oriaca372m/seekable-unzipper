@@ -3,6 +3,10 @@
   "version": "0.1.1",
   "main": "dist/index.js",
   "license": "Zlib",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oriaca372m/seekable-unzipper.git"
+  },
   "scripts": {
     "build": "webpack",
     "lint": "eslint --fix src/**",
